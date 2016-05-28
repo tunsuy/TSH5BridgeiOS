@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE89B0C1CD99D2800842069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B0B1CD99D2800842069 /* main.m */; };
+		DDE89B0F1CD99D2800842069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B0E1CD99D2800842069 /* AppDelegate.m */; };
+		DDE89B121CD99D2800842069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B111CD99D2800842069 /* ViewController.m */; };
+		DDE89B151CD99D2800842069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE89B131CD99D2800842069 /* Main.storyboard */; };
+		DDE89B171CD99D2800842069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE89B161CD99D2800842069 /* Assets.xcassets */; };
+		DDE89B1A1CD99D2800842069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE89B181CD99D2800842069 /* LaunchScreen.storyboard */; };
+		DDE89B251CD99D2800842069 /* TSH5BridgeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B241CD99D2800842069 /* TSH5BridgeiOSTests.m */; };
+		DDE89B301CD99D2800842069 /* TSH5BridgeiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B2F1CD99D2800842069 /* TSH5BridgeiOSUITests.m */; };
+		DDE89B401CD9A86300842069 /* H5BridgeiOSBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B3F1CD9A86300842069 /* H5BridgeiOSBuilder.m */; };
+		DDE89B431CD9A88100842069 /* H5BridgeiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B421CD9A88100842069 /* H5BridgeiOS.m */; };
+		DDE89B4A1CD9D0E200842069 /* EntrysOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B491CD9D0E200842069 /* EntrysOperator.m */; };
+		DDE89B4F1CD9DF5500842069 /* H5BridgeiOSAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B4E1CD9DF5500842069 /* H5BridgeiOSAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE89B211CD99D2800842069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE89AFF1CD99D2800842069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE89B061CD99D2800842069;
+			remoteInfo = TSH5BridgeiOS;
+		};
+		DDE89B2C1CD99D2800842069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE89AFF1CD99D2800842069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE89B061CD99D2800842069;
+			remoteInfo = TSH5BridgeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE89B071CD99D2800842069 /* TSH5BridgeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSH5BridgeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE89B0B1CD99D2800842069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE89B0D1CD99D2800842069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE89B0E1CD99D2800842069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE89B101CD99D2800842069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE89B111CD99D2800842069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE89B141CD99D2800842069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE89B161CD99D2800842069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE89B191CD99D2800842069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE89B1B1CD99D2800842069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE89B201CD99D2800842069 /* TSH5BridgeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSH5BridgeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE89B241CD99D2800842069 /* TSH5BridgeiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSH5BridgeiOSTests.m; sourceTree = "<group>"; };
+		DDE89B261CD99D2800842069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE89B2B1CD99D2800842069 /* TSH5BridgeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSH5BridgeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE89B2F1CD99D2800842069 /* TSH5BridgeiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSH5BridgeiOSUITests.m; sourceTree = "<group>"; };
+		DDE89B311CD99D2800842069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE89B3E1CD9A86300842069 /* H5BridgeiOSBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5BridgeiOSBuilder.h; sourceTree = "<group>"; };
+		DDE89B3F1CD9A86300842069 /* H5BridgeiOSBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5BridgeiOSBuilder.m; sourceTree = "<group>"; };
+		DDE89B411CD9A88100842069 /* H5BridgeiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5BridgeiOS.h; sourceTree = "<group>"; };
+		DDE89B421CD9A88100842069 /* H5BridgeiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5BridgeiOS.m; sourceTree = "<group>"; };
+		DDE89B441CD9B77600842069 /* H5BridgeiOSMacroDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5BridgeiOSMacroDefined.h; sourceTree = "<group>"; };
+		DDE89B461CD9C0D100842069 /* TSH5BridgeiOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSH5BridgeiOS-Prefix.pch"; sourceTree = "<group>"; };
+		DDE89B481CD9D0E200842069 /* EntrysOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntrysOperator.h; sourceTree = "<group>"; };
+		DDE89B491CD9D0E200842069 /* EntrysOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntrysOperator.m; sourceTree = "<group>"; };
+		DDE89B4D1CD9DF5500842069 /* H5BridgeiOSAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5BridgeiOSAlert.h; sourceTree = "<group>"; };
+		DDE89B4E1CD9DF5500842069 /* H5BridgeiOSAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5BridgeiOSAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE89B041CD99D2800842069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B1D1CD99D2800842069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B281CD99D2800842069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE89AFE1CD99D2800842069 = {
+			isa = PBXGroup;
+			children = (
+				DDE89B091CD99D2800842069 /* TSH5BridgeiOS */,
+				DDE89B231CD99D2800842069 /* TSH5BridgeiOSTests */,
+				DDE89B2E1CD99D2800842069 /* TSH5BridgeiOSUITests */,
+				DDE89B081CD99D2800842069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE89B081CD99D2800842069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B071CD99D2800842069 /* TSH5BridgeiOS.app */,
+				DDE89B201CD99D2800842069 /* TSH5BridgeiOSTests.xctest */,
+				DDE89B2B1CD99D2800842069 /* TSH5BridgeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE89B091CD99D2800842069 /* TSH5BridgeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B471CD9D09400842069 /* Common */,
+				DDE89B3D1CD99E1700842069 /* H5BridgeiOS */,
+				DDE89B0D1CD99D2800842069 /* AppDelegate.h */,
+				DDE89B0E1CD99D2800842069 /* AppDelegate.m */,
+				DDE89B101CD99D2800842069 /* ViewController.h */,
+				DDE89B111CD99D2800842069 /* ViewController.m */,
+				DDE89B131CD99D2800842069 /* Main.storyboard */,
+				DDE89B161CD99D2800842069 /* Assets.xcassets */,
+				DDE89B181CD99D2800842069 /* LaunchScreen.storyboard */,
+				DDE89B1B1CD99D2800842069 /* Info.plist */,
+				DDE89B461CD9C0D100842069 /* TSH5BridgeiOS-Prefix.pch */,
+				DDE89B0A1CD99D2800842069 /* Supporting Files */,
+			);
+			path = TSH5BridgeiOS;
+			sourceTree = "<group>";
+		};
+		DDE89B0A1CD99D2800842069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B0B1CD99D2800842069 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE89B231CD99D2800842069 /* TSH5BridgeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B241CD99D2800842069 /* TSH5BridgeiOSTests.m */,
+				DDE89B261CD99D2800842069 /* Info.plist */,
+			);
+			path = TSH5BridgeiOSTests;
+			sourceTree = "<group>";
+		};
+		DDE89B2E1CD99D2800842069 /* TSH5BridgeiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B2F1CD99D2800842069 /* TSH5BridgeiOSUITests.m */,
+				DDE89B311CD99D2800842069 /* Info.plist */,
+			);
+			path = TSH5BridgeiOSUITests;
+			sourceTree = "<group>";
+		};
+		DDE89B3D1CD99E1700842069 /* H5BridgeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B4C1CD9DF2D00842069 /* H5BIComponentDelegate */,
+				DDE89B4B1CD9DF1900842069 /* H5BIComponent */,
+				DDE89B3E1CD9A86300842069 /* H5BridgeiOSBuilder.h */,
+				DDE89B3F1CD9A86300842069 /* H5BridgeiOSBuilder.m */,
+				DDE89B411CD9A88100842069 /* H5BridgeiOS.h */,
+				DDE89B421CD9A88100842069 /* H5BridgeiOS.m */,
+				DDE89B441CD9B77600842069 /* H5BridgeiOSMacroDefined.h */,
+			);
+			path = H5BridgeiOS;
+			sourceTree = "<group>";
+		};
+		DDE89B471CD9D09400842069 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B481CD9D0E200842069 /* EntrysOperator.h */,
+				DDE89B491CD9D0E200842069 /* EntrysOperator.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DDE89B4B1CD9DF1900842069 /* H5BIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B4D1CD9DF5500842069 /* H5BridgeiOSAlert.h */,
+				DDE89B4E1CD9DF5500842069 /* H5BridgeiOSAlert.m */,
+			);
+			path = H5BIComponent;
+			sourceTree = "<group>";
+		};
+		DDE89B4C1CD9DF2D00842069 /* H5BIComponentDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = H5BIComponentDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE89B061CD99D2800842069 /* TSH5BridgeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE89B341CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOS" */;
+			buildPhases = (
+				DDE89B031CD99D2800842069 /* Sources */,
+				DDE89B041CD99D2800842069 /* Frameworks */,
+				DDE89B051CD99D2800842069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSH5BridgeiOS;
+			productName = TSH5BridgeiOS;
+			productReference = DDE89B071CD99D2800842069 /* TSH5BridgeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE89B1F1CD99D2800842069 /* TSH5BridgeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE89B371CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOSTests" */;
+			buildPhases = (
+				DDE89B1C1CD99D2800842069 /* Sources */,
+				DDE89B1D1CD99D2800842069 /* Frameworks */,
+				DDE89B1E1CD99D2800842069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE89B221CD99D2800842069 /* PBXTargetDependency */,
+			);
+			name = TSH5BridgeiOSTests;
+			productName = TSH5BridgeiOSTests;
+			productReference = DDE89B201CD99D2800842069 /* TSH5BridgeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE89B2A1CD99D2800842069 /* TSH5BridgeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE89B3A1CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOSUITests" */;
+			buildPhases = (
+				DDE89B271CD99D2800842069 /* Sources */,
+				DDE89B281CD99D2800842069 /* Frameworks */,
+				DDE89B291CD99D2800842069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE89B2D1CD99D2800842069 /* PBXTargetDependency */,
+			);
+			name = TSH5BridgeiOSUITests;
+			productName = TSH5BridgeiOSUITests;
+			productReference = DDE89B2B1CD99D2800842069 /* TSH5BridgeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE89AFF1CD99D2800842069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDE89B061CD99D2800842069 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDE89B1F1CD99D2800842069 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE89B061CD99D2800842069;
+					};
+					DDE89B2A1CD99D2800842069 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE89B061CD99D2800842069;
+					};
+				};
+			};
+			buildConfigurationList = DDE89B021CD99D2800842069 /* Build configuration list for PBXProject "TSH5BridgeiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE89AFE1CD99D2800842069;
+			productRefGroup = DDE89B081CD99D2800842069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE89B061CD99D2800842069 /* TSH5BridgeiOS */,
+				DDE89B1F1CD99D2800842069 /* TSH5BridgeiOSTests */,
+				DDE89B2A1CD99D2800842069 /* TSH5BridgeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE89B051CD99D2800842069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE89B1A1CD99D2800842069 /* LaunchScreen.storyboard in Resources */,
+				DDE89B171CD99D2800842069 /* Assets.xcassets in Resources */,
+				DDE89B151CD99D2800842069 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B1E1CD99D2800842069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B291CD99D2800842069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE89B031CD99D2800842069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE89B121CD99D2800842069 /* ViewController.m in Sources */,
+				DDE89B0F1CD99D2800842069 /* AppDelegate.m in Sources */,
+				DDE89B4F1CD9DF5500842069 /* H5BridgeiOSAlert.m in Sources */,
+				DDE89B431CD9A88100842069 /* H5BridgeiOS.m in Sources */,
+				DDE89B0C1CD99D2800842069 /* main.m in Sources */,
+				DDE89B4A1CD9D0E200842069 /* EntrysOperator.m in Sources */,
+				DDE89B401CD9A86300842069 /* H5BridgeiOSBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B1C1CD99D2800842069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE89B251CD99D2800842069 /* TSH5BridgeiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE89B271CD99D2800842069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE89B301CD99D2800842069 /* TSH5BridgeiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE89B221CD99D2800842069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE89B061CD99D2800842069 /* TSH5BridgeiOS */;
+			targetProxy = DDE89B211CD99D2800842069 /* PBXContainerItemProxy */;
+		};
+		DDE89B2D1CD99D2800842069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE89B061CD99D2800842069 /* TSH5BridgeiOS */;
+			targetProxy = DDE89B2C1CD99D2800842069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE89B131CD99D2800842069 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE89B141CD99D2800842069 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE89B181CD99D2800842069 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE89B191CD99D2800842069 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE89B321CD99D2800842069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDE89B331CD99D2800842069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE89B351CD99D2800842069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSH5BridgeiOS/TSH5BridgeiOS-Prefix.pch";
+				INFOPLIST_FILE = TSH5BridgeiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDE89B361CD99D2800842069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSH5BridgeiOS/TSH5BridgeiOS-Prefix.pch";
+				INFOPLIST_FILE = TSH5BridgeiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDE89B381CD99D2800842069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSH5BridgeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSH5BridgeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSH5BridgeiOS.app/TSH5BridgeiOS";
+			};
+			name = Debug;
+		};
+		DDE89B391CD99D2800842069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSH5BridgeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSH5BridgeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSH5BridgeiOS.app/TSH5BridgeiOS";
+			};
+			name = Release;
+		};
+		DDE89B3B1CD99D2800842069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSH5BridgeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSH5BridgeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSH5BridgeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDE89B3C1CD99D2800842069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSH5BridgeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSH5BridgeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSH5BridgeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE89B021CD99D2800842069 /* Build configuration list for PBXProject "TSH5BridgeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE89B321CD99D2800842069 /* Debug */,
+				DDE89B331CD99D2800842069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE89B341CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE89B351CD99D2800842069 /* Debug */,
+				DDE89B361CD99D2800842069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE89B371CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE89B381CD99D2800842069 /* Debug */,
+				DDE89B391CD99D2800842069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE89B3A1CD99D2800842069 /* Build configuration list for PBXNativeTarget "TSH5BridgeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE89B3B1CD99D2800842069 /* Debug */,
+				DDE89B3C1CD99D2800842069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE89AFF1CD99D2800842069 /* Project object */;
+}
